@@ -95,7 +95,7 @@ Total: 15
 Here's a "complex" example of a saved `.cnb` file after sequentially adding separate cells:
 
 > [!NOTE]
-> The *<<<* represents the outputs of the cells. If a cell returns a empty section, that cell doesn't have any output BUT the data has been stored for the following cell.
+> The *<<<* represents the outputs of the cells. If a cell returns a empty section, that cell doesn't have any output BUT the data has been stored.
 ````c
 CNOTEBOOK
 CELLS:4
