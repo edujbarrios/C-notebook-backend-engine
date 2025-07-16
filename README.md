@@ -1,4 +1,3 @@
-
 # C Notebook Backend Engine
 
 ## Description
@@ -91,25 +90,12 @@ Total: 15
 ---
 ```
 
-## Example Notebook Workflow
+## Complex example: DNA sequence
 
-### Cell 1
-```c
-int total = 10;
-printf("Total: %d\n", total);
-:end
-```
+Here's a "complex" example of a saved `.cnb` file after sequentially adding separate cells:
 
-### Cell 2
-```c
-total += 5;
-printf("Updated total: %d\n", total);
-:end
-```
-
-## Complex example: DNA sec
-
-Here's an example complex `.cnb` file created from scratch:
+> [!NOTE]
+> The *<<<* represents the outputs of the cells. If a cell returns a empty section, that cell doesn't have any output BUT the data has been stored for the following cell.
 ````c
 CNOTEBOOK
 CELLS:4
@@ -160,6 +146,8 @@ GC-content: 63.16%
 
 ---
 ````
+
+Note that more complex cells can be done, but to do that it's needed to develop a custom frontend to achieve better results, that part is done but remains private.
 
 ## Author
 
