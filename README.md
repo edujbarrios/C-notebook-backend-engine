@@ -95,7 +95,9 @@ Total: 15
 Here's a "complex" example of a saved `.cnb` file after sequentially adding separate cells:
 
 > [!NOTE]
-> The *<<<* represents the outputs of the cells. If a cell returns a empty section, that cell doesn't have any output BUT the data has been stored.
+> The *<<<* represents the outputs of the cells in the self creted `.cnb` files.
+> More complex cells can be done and work as a real Jupyter Notebook for C, but to do that, it's needed to develop a custom frontend. **This mentioned part is done but remains private.**
+
 ````c
 CNOTEBOOK
 CELLS:4
@@ -146,8 +148,6 @@ GC-content: 63.16%
 
 ---
 ````
-
-Note that more complex cells can be done, but to do that it's needed to develop a custom frontend to achieve better results, that part is done but remains private.
 
 ## Author
 
