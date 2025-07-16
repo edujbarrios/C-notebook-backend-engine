@@ -1,0 +1,20 @@
+CNOTEBOOK
+CELLS:2
+---
+int total = 100;
+int increment = 25;
+printf("Starting total: %d\n", total);
+
+<<<
+Starting total: 100
+
+---
+---
+total += increment;
+printf("Updated total: %d\n", total);
+
+<<<
+Starting total: 100
+Updated total: 125
+
+---
