@@ -1,5 +1,7 @@
 # C Notebook Backend Engine
 
+![ON DEVELOPMENT](https://img.shields.io/badge/ON%20DEVELOPMENT-001f4d?style=for-the-badge)
+
 ## Description
 
 This project is a **pure terminal prototype** of a *****C-based notebook infrastructure*****. It allows you to create, edit, and execute sequential C code blocks called cells. The cells are stored as part of a structured notebook file using the custom state of the art **`.cnb`** file extension.
@@ -11,7 +13,6 @@ This project is a **pure terminal prototype** of a *****C-based notebook infrast
 
 - Validate the execution model for sequentially concatenated C code cells.
 - Validate save/load mechanics for notebook files using `.cnb` custom format.
-- Demonstrate a minimal terminal user interface for educational and internal development purposes.
 
 ## How It Works
 
