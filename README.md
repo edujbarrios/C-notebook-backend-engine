@@ -1,11 +1,12 @@
 
-# C Notebook
+# C Notebook Backend Engine
 
 ## Description
 
 This project is a **pure terminal prototype** of a *****C-based notebook infrastructure*****. It allows you to create, edit, and execute sequential C code blocks called cells. The cells are stored as part of a structured notebook file using the custom state of the art **`.cnb`** file extension.
 
-> **Note:** This is strictly a backend demonstration for a *****proof-of-concept*****. The full-featured C notebook infrastructure developed by myself is maintained privately for usability and product reasons.
+> [!WARNING]
+> This is strictly a backend demonstration for a *****proof-of-concept*****. The full-featured C notebook infrastructure developed by myself is maintained privately for usability and product reasons.
 
 ## Project Purpose
 
@@ -26,6 +27,14 @@ This project is a **pure terminal prototype** of a *****C-based notebook infrast
 - GCC Compiler
 - Make
 
+### Download repo
+
+```bash
+git clone https://github.com/edujbarrios/C-notebook-backend-engine/
+cd C-notebook-backend-engine
+```
+
+
 ### Build Instructions:
 
 ```bash
@@ -35,7 +44,7 @@ make
 ### Run:
 
 ```bash
-./c_notebook_pure_terminal
+./cnb
 ```
 
 ## Folder Structure
@@ -43,7 +52,6 @@ make
 ```
 include/        → Header files
 src/            → Source files
-images/         → Sample images
 output_cnbs/    → Saved notebooks with .cnb extension
 memory/         → Temporary compilation and execution files
 Makefile        → Build script
